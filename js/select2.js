@@ -15,6 +15,9 @@
     var options = {
       dropdownParent: element.closest(".modal").length ? element.closest(".modal") : $(document.body),
       minimumResultsForSearch: element.data("minimum-results-for-search"),
+      tags: element.data("tags"),
+      multiple: element.data("multiple"),
+      placeholder: element.data("placeholder"),
       templateResult
     }
 

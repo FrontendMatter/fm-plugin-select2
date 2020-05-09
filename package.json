@@ -1,6 +1,6 @@
 {
   "name": "fm-plugin-select2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "FrontendMatter <contact@frontendmatter.com> (http://www.frontendmatter.com)",
   "license": "UNLICENSED",
   "main": "js/select2.js",
