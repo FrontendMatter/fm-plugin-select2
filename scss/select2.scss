@@ -1,3 +1,6 @@
+// @material/elevation
+@use '@material/elevation/mixins' as mdc-elevation-mixins;
+
 .select2-selection__arrow {
   display: none;
 }
@@ -93,7 +96,7 @@
   background-color: $dropdown-bg;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
-  @include mdc-elevation(8, $dropdown-box-shadow-base-color, $shadow-opacity-boost);
+  @include mdc-elevation-mixins.elevation(8, $dropdown-box-shadow-base-color, $shadow-opacity-boost);
 }
 
 .select2-results__option {

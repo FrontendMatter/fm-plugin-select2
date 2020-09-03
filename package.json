@@ -1,6 +1,6 @@
 {
   "name": "fm-plugin-select2",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "FrontendMatter <contact@frontendmatter.com> (http://www.frontendmatter.com)",
   "license": "UNLICENSED",
   "main": "js/select2.js",
@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/FrontendMatter/fm-plugin-select2#readme",
   "dependencies": {
+    "@material/elevation": "^7.0.0",
     "select2": "^4.0.12"
   }
 }
