@@ -82,7 +82,9 @@
   overflow: inherit;
   padding: 0;
   white-space: inherit;
-  text-overflow: inherit
+  text-overflow: inherit;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered {
@@ -129,9 +131,10 @@
 }
 
 .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__rendered {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 0 -.25rem -.25rem;
-  padding: 0
+  padding: 0;
 }
 
 .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
@@ -157,7 +160,13 @@
 }
 
 .select2-container .select2-search--inline {
-  display: none;
+  display: inline-flex;
+  margin: 0 0 0.25rem 0.25rem;
+  float: none;
+  .select2-search__field {
+    margin-top: 0;
+    outline: none;
+  }
 }
 
 .select2-search--dropdown {
